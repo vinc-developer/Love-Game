@@ -8,29 +8,45 @@
  <link href="style.css" rel="stylesheet">
  <script src="script.js"></script>
 </head>
-
+<main>
 <article>
 <section>
-    <h1>Binevenue sur Game Love</h1>
-    <img src="#" alt="image rose">
+    <h1>Bienvenue sur Game Love</h1>
+    <img src="images/image2.gif" alt="image présentation" style="width: 450px;">
 </section>
 <section>
-    <p>A toi de jouer</p>
+    <h3>Quand nous somme nous rencontré?</h3>
 </section>
-<section>
-    <form>
-        <label for="nom">Nom:</label>
-        <input type="text" name="nom" id="nom" placeholder="votre nom!">
-        <label for="prenom">Prénom:</label>
-        <input type="text" name="prenom" id="prenom" placeholder="votre prenom!">
-
-        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
-        <button value="send"></button>
+<section id="formulaire1">
+    <form class="form1">
+        <label for="jout">Jour:</label>
+        <input type="text" name="jour" id="jour" placeholder="jour de notre rencontre">
+        <label for="nom">Mois:</label>
+        <input type="text" name="mois" id="mois" placeholder="mois de notre rencontre">
+        <label for="année">Année:</label>
+        <input type="text" name="année" id="année" placeholder="année de notre rencontre!">
+        <button class="button" type="submit" value="ok" id="button1">Envoyer</button>
     </form>
 </section>
 <section>
-    <img src="#" alt="image true">
+<h3>Qu'elle sorte de rose t'ai-je offert pour la première fois?</h3>
+</section>
+<section id="formulaire2"> 
+    <form class="form2">
+        <label for="rose1">Rose en papier :</label>
+        <input type="radio" value="papier" name="rose" id="rose1">
+        <label for="rose2">Rose éternel :</label>
+        <input type="radio" value="papier" name="rose" id="rose2">
+        <label for="rose3">Vrai rose :</label>
+        <input type="radio" value="papier" name="rose" id="rose3">
+        <label for="rose4">Bouquet de rose :</label>
+        <input type="radio" value="papier" name="rose" id="rose4">
+    </form>
+</section>
+<section>
+    <div style="height: 10px;"></div>
 </section>
 </article>
+</main>
 </body>
 </html>

@@ -1,10 +1,48 @@
 html{
     background-color: red;
 }
-body{
+main{
+    text-align: center;
     width: 80%;
+    margin: auto;
+    background-color: white;
+    border-radius: 25px;
 }
 h1{
     font-weight: bold;
     font-size: 55px;
+}
+.form1 input, label{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto 10px auto;
+    font-size: 20px;
+}
+.button1{
+    width: 150px;
+    height: 50px;
+    margin: 10px auto 10px auto;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    border-radius: 30px;
+}
+.form2 label{
+    display: flex;
+    justify-content: center;
+}
+form{
+    margin: 15px auto 15px auto;
+}
+#formulaire1{
+    border: 3px solid red;
+    border-radius: 25px;
+    margin: 15px auto 15px auto !important;
+    width: 70%;
+}
+#formulaire2{
+    border: 3px solid red;
+    border-radius: 25px;
+    margin: 15px auto 15px auto !important;
+    width: 70%;
 }
