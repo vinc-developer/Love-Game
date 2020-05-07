@@ -4,12 +4,13 @@ window.onload = function (){
     let formulaire4 = document.getElementById('formulaire4').style.display = "none";
     let formulaire5 = document.getElementById('formulaire5').style.display = "none";
     let formulaire6 = document.getElementById('formulaire6').style.display = "none";
-    let image = "";
+    
     
 
     document.getElementById("formulaire2").addEventListener("change", function(event){
         let value = event.target.value;
         let message ="";
+        
             if (value === "rose1"){ 
                 message = " ce n'est pas ca !";
                 formulaire3 = document.getElementById('formulaire3').style.display = "none";
@@ -33,6 +34,7 @@ window.onload = function (){
                                                                 formulaire6 = document.getElementById('formulaire6').style.display = "block";
                                                                     document.getElementById("formulaire6").addEventListener("change", function(event){
                                                                         let value4 = event.target.value;
+                                                                        let image = "";
                                                                             if (value4 === "amical"){ 
                                                                                 message = " soyons amis !";
                                                                                 image = "../images/PseudoCode.JPG";
@@ -43,6 +45,7 @@ window.onload = function (){
                                                                                 message = " Grrr Grrr !";
                                                                                 image = "../images/PseudoCode.JPG";
                                                                             }
+                                                                            document.getElementById("img").src = image;
                                                                     });
                                                         }   else if(value3 === "non3"){
                                                                 formulaire6 = document.getElementById('formulaire6').style.display = "none";
@@ -67,6 +70,6 @@ window.onload = function (){
                 message = "ce n'est pas ca !";
         }
         document.getElementById("message").textContent = message;
-        document.getElementById("img").src = image;
+        
 });
 };
