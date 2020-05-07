@@ -41,13 +41,13 @@ window.onload = function (){
                                                                         let value4 = event.target.value;
                                                                             if (value4 === "amical"){ 
                                                                                 message = " soyons amis !";
-                                                                                image = "../images/PseudoCode.JPG";
+                                                                                image = "../jeux-js/images/coeur2.png";
                                                                         }   else if(value4 === "amour"){
                                                                                 message = " vive l'amour !";
-                                                                                image = "../images/PseudoCode.JPG";
+                                                                                image = "../jeux-js/images/infinity.png";
                                                                             }else if(value4 === "sex"){
                                                                                 message = " Grrr Grrr !";
-                                                                                image = "../images/PseudoCode.JPG";
+                                                                                image = "../jeux-js/images/grr.png";
                                                                             }
                                                                             document.getElementById("message").textContent = message;
                                                                             document.getElementById("img").src = image;

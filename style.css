@@ -79,3 +79,8 @@ form{
 .hide{
     display: none;
 }
+#message{
+    color: red;
+    font-weight: bold;
+    font-size: 35px;
+}
