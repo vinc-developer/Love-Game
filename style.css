@@ -46,3 +46,36 @@ form{
     margin: 15px auto 15px auto !important;
     width: 70%;
 }
+#formulaire3{
+    border: 3px solid red;
+    border-radius: 25px;
+    margin: 15px auto 15px auto !important;
+    width: 70%;
+}
+#formulaire4{
+    border: 3px solid red;
+    border-radius: 25px;
+    margin: 15px auto 15px auto !important;
+    width: 70%;
+}
+#formulaire5{
+    border: 3px solid red;
+    border-radius: 25px;
+    margin: 15px auto 15px auto !important;
+    width: 70%;
+}
+#formulaire6{
+    border: 3px solid red;
+    border-radius: 25px;
+    margin: 15px auto 15px auto !important;
+    width: 70%;
+}
+#formulaire7{
+    border: 3px solid red;
+    border-radius: 25px;
+    margin: 15px auto 15px auto !important;
+    width: 70%;
+}
+.hide{
+    display: none;
+}
