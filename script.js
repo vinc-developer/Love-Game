@@ -34,31 +34,31 @@ window.onload = function (){
                                                                     document.getElementById("formulaire6").addEventListener("change", function(event){
                                                                         let value4 = event.target.value;
                                                                             if (value4 === "amical"){ 
-                                                                                message = " c'est genial !";
+                                                                                message = " soyons amis !";
                                                                                 image = "../images/PseudoCode.JPG";
                                                                         }   else if(value4 === "amour"){
-                                                                                message = " c'est genial !";
+                                                                                message = " vive l'amour !";
                                                                                 image = "../images/PseudoCode.JPG";
                                                                             }else if(value4 === "sex"){
-                                                                                message = " c'est genial !";
+                                                                                message = " Grrr Grrr !";
                                                                                 image = "../images/PseudoCode.JPG";
                                                                             }
-                                                                    })
+                                                                    });
                                                         }   else if(value3 === "non3"){
                                                                 formulaire6 = document.getElementById('formulaire6').style.display = "none";
                                                                 message = " pas de probleme je comprend ! ";
                                                             }
-                                                    }) 
+                                                    }); 
                                         }   else if(value2 === "non2"){
                                                 formulaire5 = document.getElementById('formulaire5').style.display = "none";
                                                 message = " pas de probleme je comprend ! ";
                                             }
-                                    }) 
+                                    }); 
                         }   else if(value1 === "non1"){
                                 formulaire4 = document.getElementById('formulaire4').style.display = "none";
                                 message = " pas de probleme je comprend ! ";
                             }
-                    })          
+                    });          
         }   else if(value === "rose3"){
                 formulaire3 = document.getElementById('formulaire3').style.display = "none";
                 message = "ce n'est pas ca !"
