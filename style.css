@@ -1,6 +1,19 @@
 html{
     background-color: red;
 }
+audio{
+    background-color: red;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 8px 8px 12px black;
+    border-radius: 5px;
+}
+.audio{
+    display: block;
+}
+.audio p{
+font-size: 20px;
+}
 main{
     text-align: center;
     width: 80%;
@@ -11,6 +24,10 @@ main{
 h1{
     font-weight: bold;
     font-size: 55px;
+}
+h3{
+    font-weight: bold;
+    font-size: 25px;
 }
 .form1 input, label{
     display: flex;
@@ -39,42 +56,42 @@ form{
     border-radius: 25px;
     margin: 15px auto 15px auto !important;
     width: 70%;
+    box-shadow: 8px 8px 12px black;
 }
 #formulaire2{
     border: 3px solid red;
     border-radius: 25px;
     margin: 15px auto 15px auto !important;
     width: 70%;
+    box-shadow: 8px 8px 12px black;
 }
 #formulaire3{
     border: 3px solid red;
     border-radius: 25px;
     margin: 15px auto 15px auto !important;
     width: 70%;
+    box-shadow: 8px 8px 12px black;
 }
 #formulaire4{
     border: 3px solid red;
     border-radius: 25px;
     margin: 15px auto 15px auto !important;
     width: 70%;
+    box-shadow: 8px 8px 12px black;
 }
 #formulaire5{
     border: 3px solid red;
     border-radius: 25px;
     margin: 15px auto 15px auto !important;
     width: 70%;
+    box-shadow: 8px 8px 12px black;
 }
 #formulaire6{
     border: 3px solid red;
     border-radius: 25px;
     margin: 15px auto 15px auto !important;
     width: 70%;
-}
-#formulaire7{
-    border: 3px solid red;
-    border-radius: 25px;
-    margin: 15px auto 15px auto !important;
-    width: 70%;
+    box-shadow: 8px 8px 12px black;
 }
 .hide{
     display: none;
@@ -85,5 +102,45 @@ form{
     font-size: 35px;
 }
 #img{
+    text-align: center;
+}
+#message1{
+    color: red;
+    font-weight: bold;
+    font-size: 35px;
+}
+#img1{
+    text-align: center;
+}
+#message2{
+    color: red;
+    font-weight: bold;
+    font-size: 35px;
+}
+#img2{
+    text-align: center;
+}
+#message3{
+    color: red;
+    font-weight: bold;
+    font-size: 35px;
+}
+#img3{
+    text-align: center;
+}
+#message4{
+    color: red;
+    font-weight: bold;
+    font-size: 35px;
+}
+#img4{
+    text-align: center;
+}
+#message5{
+    color: red;
+    font-weight: bold;
+    font-size: 35px;
+}
+#img5{
     text-align: center;
 }

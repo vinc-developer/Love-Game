@@ -12,18 +12,29 @@
                 <section>
                     <h1>Welcome to the Love Quiz !</h1>
                     <img src="images/image2.gif" alt="image présentation" style="width: 450px;">
+                    
+                  <div class="audio">
+                      <p>Petite musique d'ambiance !</p>
+                   <audio controls >
+                        <source src="musique/son1.mp3" type="audio/mp3">
+                  </audio>
+                </div>
                 </section>
 
                 <section id="formulaire1">
                     <h3>Quand nous somme-nous rencontré?</h3>
                     <form id="form1">
                         <label for="jour">Jour:</label>
-                        <input id="jour" name="jour" value="jour" type="number" placeholder="qu'elle était le jour?" required/>
+                        <input id="jour" name="jour" value="jour" type="number" placeholder="Qu'elle était le jour?" required/>
                         <label for="mois">Mois:</label>
-                        <input type="number" name="mois" value="mois" id="mois" placeholder="qu'elle était le mois?" required/>
+                        <input type="number" name="mois" value="mois" id="mois" placeholder="Qu'elle était le mois?" required/>
                         <label for="année">Année:</label>
-                        <input type="number" name="année" value="année" id="année" placeholder="qu'elle était l'année?" required/>
+                        <input type="number" name="année" value="année" id="année" placeholder="Qu'elle était l'année?" required/>
                     </form>
+                    <div>
+                        <p id="message"></p>
+                        <img id="img">
+                    </div>
                 </section>
 
                 <section id="formulaire2"> 
@@ -39,6 +50,11 @@
                         <label for="rose4">Bouquet de rose :</label>
                         <input type="radio" value="rose4" name="form2" id="rose4">
                     </form>
+                    <div>
+                        <p id="message1"></p>
+                        <img id="img1">
+                        
+                    </div>
                 </section>
 
                 <section id="formulaire3">
@@ -50,6 +66,10 @@
                         <label for="non" class="label">Non</label>
                         <input type="radio" name="form3" value="non1" id="non" />
                     </form>
+                    <div>
+                        <p id="message2"></p>
+                        <img id="img2">
+                    </div>
                 </section>
 
                 <section id="formulaire4">
@@ -61,6 +81,10 @@
                         <label for="non2" class="label">Non</label>
                         <input type="radio" value="non2" name="form4" id="non2">
                     </form>
+                    <div>
+                        <p id="message3"></p>
+                        <img id="img3">
+                    </div>
                 </section>
 
                 <section id="formulaire5">
@@ -72,6 +96,10 @@
                         <label for="non3" class="label">Non</label>
                         <input type="radio"  name="form5" value="non3" id="non3">
                     </form>
+                    <div>
+                        <p id="message4"></p>
+                        <img id="img4">
+                    </div>
                 </section>
 
                 <section id="formulaire6">
@@ -84,9 +112,12 @@
                         <label for="sex">Sexfriend</label>
                         <input type="radio" value="sex" name="form6" id="sex">
                     </form>
+                    <div>
+                        <p id="message5"></p>
+                        <img id="img5">
+                    </div>
                 </section>
-                <p id="message"></p>
-                <img id="img">
+                
             </article>
         </main>
     </body>
