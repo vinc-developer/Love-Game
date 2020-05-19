@@ -1,5 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 html{
     background-color: red;
+    display: flex;
+    justify-content: center;
+}
+body{
+    
+    
+    width: 80%;
 }
 audio{
     background-color: red;
@@ -143,4 +154,9 @@ form{
 }
 #img5{
     text-align: center;
+}
+footer{
+    
+    text-align: center;
+    background-color: darkgray;
 }

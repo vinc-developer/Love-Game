@@ -6,7 +6,30 @@
             <meta charset="utf-8">
             <link href="style.css" rel="stylesheet">
             <script src="script.js"></script>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
         </head>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">PorteFolio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#">Acceuil</a>
+                    <a class="nav-item nav-link" href="#">HTML/CSS</a>
+                    <a class="nav-item nav-link" href="#">JavScript</a>
+                    <a class="nav-item nav-link" href="#">WordPress</a>
+                    <a class="nav-item nav-link" href="#">PHP/MySQL</a>
+
+                  </div>
+                </div>
+              </nav>
+
+        </header>
         <main>
             <article>
                 <section>
@@ -22,14 +45,14 @@
                 </section>
 
                 <section id="formulaire1">
-                    <h3>Quand nous somme-nous rencontré?</h3>
+                    <h3>Quand nous sommes-nous rencontrés?</h3>
                     <form id="form1">
                         <label for="jour">Jour:</label>
-                        <input id="jour" name="jour" value="jour" type="number" placeholder="Qu'elle était le jour?" required/>
+                        <input id="jour" name="jour" value="jour" type="number" placeholder="Qu'elle jour? (11)" required/>
                         <label for="mois">Mois:</label>
-                        <input type="number" name="mois" value="mois" id="mois" placeholder="Qu'elle était le mois?" required/>
+                        <input type="number" name="mois" value="mois" id="mois" placeholder="Qu'elle mois? (9)" required/>
                         <label for="année">Année:</label>
-                        <input type="number" name="année" value="année" id="année" placeholder="Qgitu'elle était l'année?" required/>
+                        <input type="number" name="année" value="année" id="année" placeholder="Qu'elle année? (2020)" required/>
                     </form>
                     <div>
                         <p id="message"></p>
@@ -38,14 +61,14 @@
                 </section>
 
                 <section id="formulaire2"> 
-                    <h3>Qu'elle sorte de rose t'ai-je offert la première fois?</h3>
+                    <h3>Quelle sorte de rose t'ai-je offert la première fois?</h3>
                     <img src="images/rose2.png">
                     <form id="form2">
                         <label for="rose1">Rose en papier :</label>
                         <input type="radio" value="rose1" name="form2" id="rose1">
-                        <label for="rose2">Rose éternel :</label>
+                        <label for="rose2">Rose éternelle :</label>
                         <input type="radio" value="rose2" name="form2" id="rose2">
-                        <label for="rose3">Vrai rose :</label>
+                        <label for="rose3">Vraie rose :</label>
                         <input type="radio" value="rose3" name="form2" id="rose3">
                         <label for="rose4">Bouquet de rose :</label>
                         <input type="radio" value="rose4" name="form2" id="rose4">
@@ -73,7 +96,7 @@
                 </section>
 
                 <section id="formulaire4">
-                    <h3>En veux tu une autre?</h3>
+                    <h3>En veux-tu une autre?</h3>
                     <img src="images/quest1.png">
                     <form id="form4">
                         <label for="oui2" class="label">Oui</label>
@@ -88,7 +111,7 @@
                 </section>
 
                 <section id="formulaire5">
-                    <h3>Voudrais tu passer plus de temps avec moi?</h3>
+                    <h3>Voudrais-tu passer plus de temps avec moi?</h3>
                     <img src="images/quest2.png">
                     <form id="form5">
                         <label for="oui3" class="label">Oui</label>
@@ -103,7 +126,7 @@
                 </section>
 
                 <section id="formulaire6">
-                    <h3>Qu'elle relation veux-tu avec moi?</h3>
+                    <h3>Quelle relation veux-tu avec moi?</h3>
                     <form id="form6">
                         <label for="amical">Amical</label>
                         <input type="radio" value="amical" name="form6" id="amical">
@@ -120,5 +143,12 @@
                 
             </article>
         </main>
+        <footer>
+            <section id="pied">
+                <p>©2020 Colas Vincent</p>
+                <p><a href="#">Mention Légal</a></p>
+            </section>
+
+        </footer>
     </body>
 </html>
